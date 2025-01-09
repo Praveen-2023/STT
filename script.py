@@ -17,13 +17,11 @@ arr = [1,4,6,3,74,35,23,76,45]
 print (arr)
 MAX = 0
 for index, NUM in enumerate(arr):
-    if NUM> MAX:
-        MAX = NUM
+    MAX = max(MAX,NUM)
 print ("laregest number in the array is :",MAX)
 SMALL = arr[0]
 for index, NUM in enumerate(arr):
-    if NUM < SMALL:
-        SMALL = NUM
+    SMALL = min(SMALL,NUM)
 print ("Smallest number in the array is :",SMALL)
 TOTAL=0
 for index, NUM in enumerate(arr):
