@@ -11,17 +11,17 @@ if A > B:
 else:
     print(B, "is grater than " ,A)
     
-print("sum of a,b,c  is :",X)
-print("Sub of c-b  is :",Y)
-print("multiplication of a,b,c  is :",Z)
-print("division of c/a is :",W)
+print("sum of A,B,C is :",X)
+print("Sub of C-B  is :",Y)
+print("multiplication of A,B,C  is :",Z)
+print("division of C/A is :",W)
 arr = [1,4,6,3,74,35,23,76,45]
 print (arr)
 
-MAX = max(MAX,NUM)
+MAX = max(arr)
 print ("laregest number in the array is :",MAX)
 
-SMALL = min(SMALL,NUM)
+SMALL = min(arr)
 print ("Smallest number in the array is :",SMALL)
 
 for index, NUM in enumerate(arr):
