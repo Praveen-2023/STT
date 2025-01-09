@@ -16,17 +16,17 @@ print("division of c/a is :",W)
 arr = [1,4,6,3,74,35,23,76,45]
 print (arr)
 MAX = 0
-for i in range(0, len(arr)):
-    if arr[i] > MAX:
-        MAX = arr[i]
+for index, NUM in enumerate(arr):
+    if NUM> MAX:
+        MAX = NUM
 print ("laregest number in the array is :",MAX)
 SMALL = arr[0]
-for i in range(0, len(arr)):
-    if arr[i] < SMALL:
-        SMALL = arr[i]
+for index, NUM in enumerate(arr):
+    if NUM < SMALL:
+        SMALL = NUM
 print ("Smallest number in the array is :",SMALL)
 TOTAL=0
-for i in range(0, len(arr)):
-    TOTAL += arr[i]
+for index, NUM in enumerate(arr):
+    TOTAL += NUM
 AVG = TOTAL/len(arr)
 print ("Average:",AVG)
