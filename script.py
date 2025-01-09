@@ -1,32 +1,32 @@
-a = 5
-b = 8
-c = 10
-add = a + b + c
-sub = c - b
-mult = a*b*c
-divide = c / a
-if a > b:
-    print(a, "is greater than" ,b)
+A = 5
+B = 8
+C = 10
+X = A + B + C
+Y = C - B
+Z = A*B*C
+W = C / A
+if A > B:
+    print(A, "is greater than" ,B)
 else:
-    print(b, "is grater than " ,a)
-print("sum of a,b,c  is :",add)
-print("Sub of c-b  is :",sub)
-print("multiplication of a,b,c  is :",mult)
-print("division of c/a is :",divide)
+    print(B, "is grater than " ,A)
+print("sum of a,b,c  is :",X)
+print("Sub of c-b  is :",Y)
+print("multiplication of a,b,c  is :",Z)
+print("division of c/a is :",W)
 arr = [1,4,6,3,74,35,23,76,45]
 print (arr)
-max = 0
+MAX = 0
 for i in range(0, len(arr)):
-    if arr[i] > max:
-        max = arr[i]
-print ("laregest number in the array is :",max)
-small = arr[0]
+    if arr[i] > MAX:
+        MAX = arr[i]
+print ("laregest number in the array is :",MAX)
+SMALL = arr[0]
 for i in range(0, len(arr)):
-    if arr[i] < small:
-        small = arr[i]
-print ("Smallest number in the array is :",small)
-total =0
+    if arr[i] < SMALL:
+        SMALL = arr[i]
+print ("Smallest number in the array is :",SMALL)
+TOTAL=0
 for i in range(0, len(arr)):
-    total += arr[i]
-average = total/len(arr)
-print ("Average:",average)
+    TOTAL += arr[i]
+AVG = TOTAL/len(arr)
+print ("Average:",AVG)
